@@ -11,7 +11,7 @@
 <h1 id="Test-plan">Test plan for ITFlow exploratory testing.</h1>
 
 ### Description:
-This project aims to verify the functionality and UX of the [ITFlow](https://itflow.org/) website through a combination of exploratory and manual testing. Main focus of the tests are: core user functionalities like login, registration, admin panel, ticketing, and billing. Testing will be conducted on a Windows 11 desktop machine using Google Chrome, Brave, and Internet Explorer to ensure compatibility across different browsers. Additionally, basic checks for security vulnerabilities and accessibility compliance will be included to assess overall user experience and system robustness.
+This project aims to verify the functionality and UX of the [ITFlow](https://itflow.org/) website through a combination of exploratory and manual testing. The main focus of the tests includes core user functionalities like login, registration, admin panel, ticketing, and billing. Testing will be conducted on a Windows 11 desktop machine using Google Chrome, Brave, and Internet Explorer to ensure compatibility across different browsers. Additionally, basic checks for security vulnerabilities and accessibility compliance will be included to assess overall user experience and system robustness.
 
 ### Scope of Testing:
 
@@ -48,7 +48,6 @@ This project aims to verify the functionality and UX of the [ITFlow](https://itf
 
 - **Manual tester**: Responsible for exploratory testing and creating test data.
 - **Tools**: 
-   * Faker 
    * DevTools
    * ShareX and ScreenPal
    * BugMagnet
