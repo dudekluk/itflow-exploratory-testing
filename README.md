@@ -2,7 +2,7 @@
 
 ## Table of Contents
 * [Test plan for ITFlow exploratory testing.](#Test-plan)
-* [Test Checklist.](#Test-Check)
+* [Test checklist.](#Test-Check)
 * [Bug Reports.](#Bug-Reports)
 * [Test summary report for ITFlow exploratory testing.](#Test-report)
 
@@ -75,7 +75,7 @@ This project aims to verify the functionality and UX of the [ITFlow](https://itf
 - **Risk**: Delays in test execution.
   - **Mitigation**:  Prioritize critical test cases and conduct proper time estimation to avoid delays.
 
-<h1 id="Test-Check">Test Checklist.</h1>
+<h1 id="Test-Check">Test checklist.</h1>
 
 **Functional**:
 
