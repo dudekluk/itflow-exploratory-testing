@@ -1,10 +1,8 @@
-# ITFlow exploratory testing
-
 ## Table of Contents
 * [Test plan for ITFlow exploratory testing.](#Test-plan)
 * [Test checklist.](#Test-Check)
 * [Bug Reports.](#Bug-Reports)
-* [Test summary report for ITFlow exploratory testing.](#Test-report)
+* [Test summary report.](#Test-report)
 
 
 
@@ -261,20 +259,45 @@ https://github.com/user-attachments/assets/a430ff2a-031b-44e9-8594-8ba695a48436
 
 
 
-<h1 id="Test-report">Test summary report for ITFlow exploratory testing.</h2>
+<h1 id="Test-report">Test summary report.</h2>
 
-## Test Summary Report
-1. **Descripton**: 
-2. **Test Period**:
-3. **Test Coverage** : 
-4. **Test Execution Summary:** 
-
-5. **Key Findings**:
+1. **Descripton**:
+This test summary report provides an overview of the exploratory testing conducted on the ITFlow web application. The testing focused on identifying functional defects, usability issues, and security vulnerabilities.
 
 
-
-6. **Recommendations**:
-
-
-7. **List of reported bugs:**
+2. **Key Findings**:
    
+   **UI/UX Issues**:
+   - Misaligned buttons and table content.
+   - Missing hover functionality for certain elements.
+   - Ineffective multi-language support.
+   - Unnecessary empty dropdowns in some buttons.
+   - Sorting issues in tables.
+   
+   **Functionality Issues**:
+   - Admin cannot log out properly.
+   - Users can add new vendors with empty names.
+   - Missing option to directly add assets when creating recurring tickets.
+   - Description length validation is missing.
+     
+   **API Integration**:
+   
+   - The automated message generator API was not connected to ChatGPT, preventing its functionality.
+
+4. **Recommendations**:
+   
+   **Address UI/UX Issues**:
+   - Correct misaligned elements to improve visual consistency and user experience.
+   - Remove unnecessary empty dropdowns to simplify the interface.
+   - Ensure that elements with hover effects function as expected.
+   - Fix or add proper multi-language support.
+     
+   **Enhance Functionality**:
+   
+   - Implement proper validation for vendor names and description lengths.
+   - Provide a direct option to add assets when creating recurring tickets.
+   - Connect the automated message generator API to ChatGPT to enable its functionality.
+
+4. **Test Execution Summary:**
+   
+   All core elements of the ITFlow web application are functioning correctly, although there are some minor issues. Despite these issues, users can still utilize the application's functionalities without significant hindrance. Addressing the identified issues will further enhance the overall user experience and ensure the application's success. All reported bugs are currently under investigation and awaiting resolution.
