@@ -140,6 +140,24 @@ This project aims to verify the functionality and UX of the [ITFlow](https://itf
 
 <h1 id="Bug-Reports">Bug Reports.</h1>
 
+
+**Title**: Admin cannot log out.
+
+**Description**: When an admin attempts to log out of the application they are redirected to an empty page. It is possible to navigate back to the previous page using the browser's back button.
+
+**Steps to Reproduce**:
+- Navigate to the admin login page.
+- Enter correct credentials and log in.
+- Open the right-top panel and click on the "Logout" button.
+
+**Expected Result**: The user should be successfully logged out and redirected to the login page or a designated logout page.
+
+**Actual Result**: The user is redirected to an empty page and can navigate back to the previous page using the browser's back button.
+
+**Priority**: High
+
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
+
 <h1 id="Test-report">Test summary report for ITFlow exploratory testing.</h2>
 
 ## Test Summary Report
