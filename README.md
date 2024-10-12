@@ -205,14 +205,12 @@ https://github.com/user-attachments/assets/cbf8d4ad-607f-4360-892b-e48f037ad012
 
 **Actual Result**: Assets tab have blank white space with missing dropdown menu.
 
-
-
 **Priority**: Medium
 
 **Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
 
-
 https://github.com/user-attachments/assets/8fca0542-e4dc-438f-80cf-58da8641444d
+
 
 <h2 id="Bug-Reports">4. Importing new client without providing any files leads to HTTP error 500.</h2>
 
@@ -225,21 +223,43 @@ https://github.com/user-attachments/assets/8fca0542-e4dc-438f-80cf-58da8641444d
 - On the "Add New" click dropdown arrow and select "Import"
 - Without adding any files click "Import" button
 
-  
-
 **Expected Result**: The system should display an error message indicating that at least one file is required for client import. The user should not be able to proceed with the import process.
 
 **Actual Result**: An HTTP error 500 is returned.
 
+**Priority**: Medium
 
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
 
 https://github.com/user-attachments/assets/7d2d589c-9e23-4c47-a51b-e542efea6064
 
 
+<h2 id="Bug-Reports">5. Missing length validation for desciption input when creating or editing vendors.</h2>
+
+**Description**: There is no validation in place for the description field length when creating or editing vendors. Entering a description with more than 200 characters cause the user interface (UI) to break, and entering more than 300 characters lead to an HTTP 500 error.
+
+**Preconditions**: User is logged in with active account.
+
+**Steps to Reproduce**:
+- Navigate to the vendor section.
+- Click "Add new vendor" or eddit existing one.
+- Enter a description with more than 200 or 300 characters.
+- Click "Confirm" button.
+- Observe the system's response.
+
+**Expected Result**: The system should validate the description field length and provide a warning or limit the input to appropriate length.
+
+**Actual Result**: Depending on length input system UI breaks or an HTTP error 500 is returned.
 
 **Priority**: Medium
 
 **Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
+
+
+
+https://github.com/user-attachments/assets/a430ff2a-031b-44e9-8594-8ba695a48436
+
+
 
 <h1 id="Test-report">Test summary report for ITFlow exploratory testing.</h2>
 
