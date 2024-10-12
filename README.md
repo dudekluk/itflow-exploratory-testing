@@ -11,7 +11,7 @@
 <h1 id="Test-plan">Test plan for ITFlow exploratory testing.</h1>
 
 ### Description:
-This project aims to verify the functionality and UX of the [ITFlow](https://itflow.org/) website through a combination of exploratory and manual testing. The main focus of the tests includes core user functionalities like login, registration, admin panel, ticketing, and billing. Testing will be conducted on a Windows 11 desktop machine using Google Chrome, Brave, and Internet Explorer to ensure compatibility across different browsers. Additionally, basic checks for security vulnerabilities and accessibility compliance will be included to assess overall user experience and system robustness.
+This project aims to verify the functionality and UX of the [ITFlow](https://itflow.org/) website through a combination of exploratory and manual testing. The main focus of the tests includes core user functionalities like login, registration, admin panel, ticketing, and billing. Testing will be conducted on a Windows 11 desktop machine using Google Chrome, Brave, and Edge to ensure compatibility across different browsers. Additionally, basic checks for security vulnerabilities and accessibility compliance will be included to assess overall user experience and system robustness.
 
 ### Scope of Testing:
 
@@ -37,7 +37,7 @@ This project aims to verify the functionality and UX of the [ITFlow](https://itf
 ### Testing Environment:
 
 - **Operating System**: Windows 11 (Desktop machine)
-- **Browser**: Google Chrome, Brave, Internet Explorer (IE)
+- **Browser**: Google Chrome, Brave, Edge 
   
 
 ### Test Schedule:
@@ -155,7 +155,7 @@ This project aims to verify the functionality and UX of the [ITFlow](https://itf
 
 **Priority**: High
 
-**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Edge.
 
 https://github.com/user-attachments/assets/5c75dfc1-7717-4695-90b8-15c5a484e938
 
@@ -180,7 +180,7 @@ https://github.com/user-attachments/assets/5c75dfc1-7717-4695-90b8-15c5a484e938
 
 **Priority**: Medium
 
-**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Edge.
 
 
 https://github.com/user-attachments/assets/cbf8d4ad-607f-4360-892b-e48f037ad012
@@ -207,7 +207,7 @@ https://github.com/user-attachments/assets/cbf8d4ad-607f-4360-892b-e48f037ad012
 
 **Priority**: Medium
 
-**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Edge.
 
 https://github.com/user-attachments/assets/8fca0542-e4dc-438f-80cf-58da8641444d
 
@@ -229,7 +229,7 @@ https://github.com/user-attachments/assets/8fca0542-e4dc-438f-80cf-58da8641444d
 
 **Priority**: Medium
 
-**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Edge.
 
 https://github.com/user-attachments/assets/7d2d589c-9e23-4c47-a51b-e542efea6064
 
@@ -253,7 +253,7 @@ https://github.com/user-attachments/assets/7d2d589c-9e23-4c47-a51b-e542efea6064
 
 **Priority**: Medium
 
-**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Edge.
 
 
 
