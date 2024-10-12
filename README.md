@@ -1,5 +1,5 @@
 ## Table of Contents
-* [Test plan for ITFlow exploratory testing.](#Test-plan)
+* [Test plan.](#Test-plan)
 * [Test checklist.](#Test-Check)
 * [Bug Reports.](#Bug-Reports)
 * [Test summary report.](#Test-report)
