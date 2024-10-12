@@ -140,7 +140,7 @@ This project aims to verify the functionality and UX of the [ITFlow](https://itf
 
 <h1 id="Bug-Reports">Bug Reports.</h1>
 
-<h2 id="Bug-Reports">Admin can't log out.</h2>
+<h2 id="Bug-Reports">1. Admin can't log out.</h2>
 
 **Description**: When an admin attempts to log out of the application they are redirected to an empty page. It is possible to navigate back to the previous page using the browser's back button.
 
@@ -157,9 +157,33 @@ This project aims to verify the functionality and UX of the [ITFlow](https://itf
 
 **Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
 
-
-
 https://github.com/user-attachments/assets/5c75dfc1-7717-4695-90b8-15c5a484e938
+
+
+
+<h2 id="Bug-Reports">2. User can add new vendor with empty name (spacebar).</h2>
+
+**Description**: A user is able to create a new vendor with only a spacebar as the name, bypassing the required field validation.
+
+**Preconditions**: User is logged in with active account.
+
+**Steps to Reproduce**:
+- Navigate to the vendor management section.
+- Click the "Add New Vendor" button.
+- Enter a spacebar in the vendor name field.
+- Leave other required fields blank.
+- Click the "Create" button.
+
+**Expected Result**: The system should display an error message indicating that the vendor name is required and cannot be empty. The user should not be able to proceed with the vendor creation process.
+
+**Actual Result**: The user is allowed to create the vendor with an empty name, potentially leading to data inconsistencies and errors in subsequent operations.
+
+**Priority**: Medium
+
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
+
+
+https://github.com/user-attachments/assets/f51c548b-f812-467e-afe2-5abf2c043a63
 
 
 
