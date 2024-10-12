@@ -183,9 +183,11 @@ https://github.com/user-attachments/assets/5c75dfc1-7717-4695-90b8-15c5a484e938
 **Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
 
 
-https://github.com/user-attachments/assets/f51c548b-f812-467e-afe2-5abf2c043a63
+https://github.com/user-attachments/assets/cbf8d4ad-607f-4360-892b-e48f037ad012
 
-<h2 id="Bug-Reports">3. Missing option to directly add assets when creating wew recurring ticket.</h2>
+
+
+<h2 id="Bug-Reports">3. Missing option to directly add assets when creating new recurring ticket.</h2>
 
 **Description**: When creating a new recurring ticket, there is no direct option to add assets immediately. Users have to create the ticket first and then go back to edit it to add assets.
 
@@ -212,7 +214,32 @@ https://github.com/user-attachments/assets/f51c548b-f812-467e-afe2-5abf2c043a63
 
 https://github.com/user-attachments/assets/8fca0542-e4dc-438f-80cf-58da8641444d
 
+<h2 id="Bug-Reports">4. Importing new client without providing any files leads to HTTP error 500.</h2>
 
+**Description**: When attempting to import a new client without providing any associated files, the system returns an HTTP Error 500. 
+
+**Preconditions**: User is logged in with active account.
+
+**Steps to Reproduce**:
+- Navigate to the client section.
+- On the "Add New" click dropdown arrow and select "Import"
+- Without adding any files click "Import" button
+
+  
+
+**Expected Result**: The system should display an error message indicating that at least one file is required for client import. The user should not be able to proceed with the import process.
+
+**Actual Result**: An HTTP error 500 is returned.
+
+
+
+https://github.com/user-attachments/assets/7d2d589c-9e23-4c47-a51b-e542efea6064
+
+
+
+**Priority**: Medium
+
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
 
 <h1 id="Test-report">Test summary report for ITFlow exploratory testing.</h2>
 
