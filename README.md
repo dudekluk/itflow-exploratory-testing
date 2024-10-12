@@ -185,6 +185,32 @@ https://github.com/user-attachments/assets/5c75dfc1-7717-4695-90b8-15c5a484e938
 
 https://github.com/user-attachments/assets/f51c548b-f812-467e-afe2-5abf2c043a63
 
+<h2 id="Bug-Reports">3. Missing option to directly add assets when creating wew recurring ticket.</h2>
+
+**Description**: When creating a new recurring ticket, there is no direct option to add assets immediately. Users have to create the ticket first and then go back to edit it to add assets.
+
+**Preconditions**: User is logged in with active account.
+
+**Steps to Reproduce**:
+- Navigate to the recurring ticket section.
+- Click the "Add New Recurring Ticket" button.
+- Enter a spacebar in the vendor name field.
+- Fill in the required fields.
+- Select "Assets" tab.
+  
+
+**Expected Result**: There should be an option to add assets directly when creating the recurring ticket, just like there is one in edit options.
+
+**Actual Result**: Assets tab have blank white space with missing dropdown menu.
+
+
+
+**Priority**: Medium
+
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Internet Explorer.
+
+
+https://github.com/user-attachments/assets/8fca0542-e4dc-438f-80cf-58da8641444d
 
 
 
