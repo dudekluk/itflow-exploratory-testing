@@ -1,4 +1,4 @@
-## Table of Contents
+## Table of contents
 * [Test plan.](#Test-plan)
 * [Test checklist.](#Test-Check)
 * [Bug Reports.](#Bug-Reports)
