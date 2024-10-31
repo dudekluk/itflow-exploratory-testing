@@ -1,7 +1,7 @@
 ## Table of contents
 * [Test plan.](#Test-plan)
 * [Test checklist.](#Test-Check)
-* [Bug Reports.](#Bug-Reports)
+* [Bug reports.](#Bug-Reports)
 * [Test summary report.](#Test-report)
 
 
