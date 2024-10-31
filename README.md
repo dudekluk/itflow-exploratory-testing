@@ -258,6 +258,141 @@ https://github.com/user-attachments/assets/7d2d589c-9e23-4c47-a51b-e542efea6064
 https://github.com/user-attachments/assets/a430ff2a-031b-44e9-8594-8ba695a48436
 
 
+<h2 id="Bug-Reports">6. Missing file type validation for user avatar.</h2>
+
+**Description**: The system lacks validation for the file type when uploading an avatar for a new user. Uploading a non-image file format (e.g., .txt, .pdf) results in an HTTP 500 error.
+
+**Preconditions**: User is logged in as an administrator.
+
+**Steps to Reproduce**:
+- Navigate to the admin panel.
+- Open the "Users" tab.
+- Click the "Add New User" button.
+- Fill in all required fields for the new user.
+- Upload a non-image file (e.g., a .txt file) as the avatar.
+- Click the "Create" button.
+- Observe the system's response.
+
+**Expected Result**: The system should display an error message indicating that only image files are allowed for user avatars. The user should not be able to proceed with the creation of the new user.
+
+**Actual Result**: An HTTP 500 error is returned, indicating a server-side issue likely caused by attempting to process a non-image file as an avatar.
+
+**Priority**: Medium
+
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Edge.
+
+https://github.com/user-attachments/assets/623fac65-efe5-4ad9-8e80-0c92aafa1bd7
+
+
+<h2 id="Bug-Reports">7. User can create tasks with negative time.</h2>
+
+**Description**: The system allows users to create tasks with negative time estimates, leading to inaccurate overall time estimates for tickets. This can result in significant errors in job planning and scheduling.
+
+**Preconditions**: User is logged in with active account.
+
+**Steps to Reproduce**:
+- Navigate to the tickets section.
+- Select an existing ticket.
+- Add a new task.
+- Enter a negative value for the estimated time.
+- Save the task.
+- Observe the system's response.
+
+**Expected Result**: The system should prevent the creation of tasks with negative time estimates and display an error message indicating that the time value must be positive.
+
+**Actual Result**: The task is created with a negative time estimate. This negative value is incorrectly added to the overall ticket time estimate, leading to inaccurate calculations.
+
+**Priority**: Medium
+
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Edge.
+
+
+https://github.com/user-attachments/assets/a28db1cb-852c-4739-a900-1cde699c9494
+
+<h2 id="Bug-Reports">8. Admin can view password by clicking padlock icon.</h2>
+
+**Description**: The admin panel allows to view sensitive user passwords by clicking on a padlock icon, which is an unexpected behavior. This could potentially lead to security breaches.
+
+**Preconditions**: User is logged in as an administrator.
+
+**Steps to Reproduce**:
+- Navigate to the admin panel.
+- Go to the "Users" tab.
+- Click on the "Create New User" button.
+- Fill in the password field.
+- Click on the padlock icon.
+- Observe the password innput.
+
+**Expected Result**: The padlock icon should be purely decorative and not have any interactive functionality. Clicking on it should not reveal the password.
+**Actual Result**: Clicking on the padlock icon reveals the password, potentially compromising sensitive information.
+
+**Priority**: Medium
+
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Edge.
+
+
+https://github.com/user-attachments/assets/55585d8f-1e92-4994-916b-65b9b3b40345
+
+<h2 id="Bug-Reports">9. Duplicate file upload in documents section leads to 500 error.</h2>
+
+**Description**: The system allows users to upload the same file multiple times to a document, leading to an HTTP 500 error upon saving the document. 
+
+**Preconditions**: User is logged in with active account.
+A client and document are created.
+
+**Steps to Reproduce**:
+- Navigate to the "Clients" tab.
+- Select a client.
+- Navigate to the "Documents" tab.
+- Click the "+" button to add a file.
+- Upload a file of your choice.
+- Click the "+" button again and select the same file.
+- Save the document.
+
+
+**Expected Result**: File should be removed from the list after adding it, same as it works with other lists.
+**Actual Result**: The system allows the user to add the same file multiple times. When the document is saved, an HTTP 500 error occurs.
+
+**Priority**: Medium
+
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Edge.
+
+
+https://github.com/user-attachments/assets/a130d30e-69b3-4e66-9ab6-ad50d3b35823
+
+
+<h2 id="Bug-Reports">10. Incorrect currency conversion for cross-currency transfers.</h2>
+
+**Description**: The system allows users to initiate transfers between accounts with different currencies without performing accurate currency conversion. This can lead to significant financial discrepancies and potential losses for users.
+
+**Preconditions**: User is logged in with active account.
+Two accounts with different currencies.
+
+**Steps to Reproduce**:
+- Navigate to the "Transfers" tab.
+- Click the "New Transfer" button.
+- Select the source account with one currency.
+- Select the destination account with a different currency.
+- Enter the desired transfer amount.
+- Initiate the transfer.
+
+
+
+**Expected Result**: The system should either:
+- Prevent the transfer and display an error message indicating that currency conversion is not supported.
+- Automatically convert the transfer amount to the destination currency's equivalent value using a real-time exchange rate.
+  
+**Actual Result**: The system allows the transfer to proceed without performing any currency conversion. This can result in significant financial losses for the user, as the actual transferred amount may be significantly different from the intended amount.
+
+**Priority**: High
+
+**Browser Compatibility**: This issue has been observed in all tested browsers: Google Chrome, Brave, and Edge.
+
+
+
+https://github.com/user-attachments/assets/92604db2-05be-4b66-b8a3-675bd48f3eb0
+
+
 
 <h1 id="Test-report">Test summary report.</h2>
 
