@@ -408,12 +408,18 @@ This test summary report provides an overview of the exploratory testing conduct
    - Ineffective multi-language support.
    - Unnecessary empty dropdowns in some buttons.
    - Sorting issues in tables.
+
    
    **Functionality Issues**:
    - Admin cannot log out properly.
    - Users can add new vendors with empty names.
    - Missing option to directly add assets when creating recurring tickets.
    - Description length validation is missing.
+   - Incorrect currency conversion for cross-currency transfers.
+   - Duplicate file upload leads to 500 error.
+   - Admin can ciew password by clicking padlock icon.
+   - User can create tasks with negative time.
+   - Missing file type validation for user avatar.
      
    **API Integration**:
    
